@@ -1,0 +1,70 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 1614
+
+{
+  "content" : [ {
+    "id" : 3,
+    "doubanId" : "25741352",
+    "title" : "DSL实战",
+    "url" : "http://book.douban.com/subject/25741352/",
+    "status" : "idle",
+    "owner" : {
+      "id" : 2,
+      "email" : "david.wang@springside.io",
+      "name" : "David",
+      "hashPassword" : "+2MunThvGcEfdYIFlT4NQQHt6z4="
+    },
+    "onboardDate" : 1420214400000,
+    "borrower" : null,
+    "borrowDate" : null
+  }, {
+    "id" : 2,
+    "doubanId" : "25900156",
+    "title" : "Redis设计与实现",
+    "url" : "http://book.douban.com/subject/25900156/",
+    "status" : "idle",
+    "owner" : {
+      "id" : 1,
+      "email" : "calvin.xiao@springside.io",
+      "name" : "Calvin",
+      "hashPassword" : "+2MunThvGcEfdYIFlT4NQQHt6z4="
+    },
+    "onboardDate" : 1420128000000,
+    "borrower" : null,
+    "borrowDate" : null
+  }, {
+    "id" : 1,
+    "doubanId" : "25984046",
+    "title" : "Big Data日知录",
+    "url" : "http://book.douban.com/subject/25984046/",
+    "status" : "idle",
+    "owner" : {
+      "id" : 1,
+      "email" : "calvin.xiao@springside.io",
+      "name" : "Calvin",
+      "hashPassword" : "+2MunThvGcEfdYIFlT4NQQHt6z4="
+    },
+    "onboardDate" : 1420041600000,
+    "borrower" : null,
+    "borrowDate" : null
+  } ],
+  "last" : true,
+  "totalPages" : 1,
+  "totalElements" : 3,
+  "size" : 15,
+  "number" : 0,
+  "sort" : [ {
+    "direction" : "DESC",
+    "property" : "id",
+    "ignoreCase" : false,
+    "nullHandling" : "NATIVE",
+    "ascending" : false,
+    "descending" : true
+  } ],
+  "first" : true,
+  "numberOfElements" : 3
+}
+----

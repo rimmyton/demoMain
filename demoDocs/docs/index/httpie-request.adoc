@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ http GET 'http://localhost:8080/api/book/list' 'Accept:application/json;charset=UTF-8'
+----

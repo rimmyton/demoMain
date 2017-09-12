@@ -5,7 +5,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.servlet.MockMvc;
 
 import com.example.bootapi.domain.Account;
 import com.example.bootapi.repository.AccountRepository;
@@ -16,9 +15,6 @@ public class DemoApplicationTests {
 
 	@Autowired
 	AccountRepository accountRepository;
-
-	@Autowired
-	private MockMvc mockMvc;
 
 	@Test
 	public void saveAccount() {
